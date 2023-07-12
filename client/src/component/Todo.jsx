@@ -27,7 +27,6 @@ function Todo() {
         instance
             .get(`users/activity?email=${userEmail}`, { headers })
             .then((response) => {
-                
                 const user = response.data;
                 setUserId(user._id);
             })
@@ -51,6 +50,8 @@ function Todo() {
                     user: userId,
                     email: userEmail
                 }, { headers })
+
+                navigate('/activities')
             } catch (err) {
                 if(err.response.status === 500){
                     alert('kindly fill the fields')
