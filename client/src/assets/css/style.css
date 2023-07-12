@@ -1,0 +1,45 @@
+.cover-bg {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.form--wrapper {
+    width: 380px;
+    padding: 60px 20px;
+    margin: auto;
+    background: #fff;
+}
+
+.user--wrapper {
+    padding: 20px 0;
+
+}
+
+.card--wrapper {
+    flex-wrap: wrap;
+    column-gap: 30px;
+    padding: 0;
+
+}
+
+li {
+    padding: 7px 0;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: sans-serif;
+    list-style-type: none;
+}
+
+.navbar {
+    position: absolute;
+    display: flex;
+    left: 0;
+    flex-wrap: wrap;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-inline: 15px;
+    width: 100%;
+    top: 0;
+    background: #fff;
+}
