@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { Navigate, useNavigate } from 'react-router-dom';
 import instance from '../helpers/axios';
-import Navbar from './navbar';
+import Navbar from './Navbar';
 
 function Todo() {
     const [activity, setActivity] = useState({ time: '', date: '', activityType: 'Run' });
